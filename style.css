@@ -1,40 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f9;
-    color:  #555;
-    text-align: center;
-    margin: 0;
-  }
-  
-  header {
-    background: rgb(24, 171, 184);
-    color: #fff;
-    padding: 20px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #555;
-    color: #fff;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #555;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background: rgb(24, 171, 184);
+  color: #fff;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* 表格和圖片的間距 */
+  justify-content: flex-start; /* 子元素從左到右排列 */
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.image-wrapper img {
+  max-width: 300px;
+  height: auto;
+}
+
+table {
+  width: 300px;
+  border-collapse: collapse;
+  text-align: left;
 }
 
 th, td {
-    border: 1px solid black;
-    text-align: center;
-    padding: 8px;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+figure {
+  text-align: center;
+  margin: 20px 0;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555;
+}
+.left-align {
+  text-align: left;
 }
